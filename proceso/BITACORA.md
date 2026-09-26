@@ -1069,3 +1069,48 @@ json.decoder.JSONDecodeError: Invalid control character at: line 84 column 72 (c
 ```
 
 Un mensaje de commit con un salto de línea le rompió el `json.load`. Lo rehice con `strict=False` y anduvo. Perdí un minuto, no cambió nada del resultado, pero lo anoto porque la regla era anotar todo.
+
+---
+
+## Cierre real — 2026-09-26, 15:50 — La falla 12 se cae, pero deja otra cosa
+
+Al día siguiente volví a mirar. **El disparo por horario funciona.** Corrió tres veces, las tres con éxito:
+
+```
+ completed | success | schedule | 2026-09-25T20:09:22Z | id 36184035600
+ completed | success | schedule | 2026-09-25T23:45:23Z | id 36202231210
+ completed | success | schedule | 2026-09-26T14:07:08Z | id 36247412244
+```
+
+Y publicó solo, dos veces:
+
+```
+2790a58 | github-actions[bot] | Cotizaciones al 2026-09-26 11:08
+d58a062 | github-actions[bot] | Cotizaciones al 2026-09-25 20:46
+```
+
+**Lo que dije en la falla 12 era cierto a las 17:05 y falso como conclusión.** Yo escribí "no disparó" después de esperar doce minutos. Disparó tres horas y cuarto más tarde. No borro la falla 12: la dejo como quedó escrita y la corrijo acá, que es como corresponde cuando el dato llega después.
+
+### Pero el retraso es enorme y eso sí es un hallazgo
+
+```
+  cron 53 16 (temporal)  programado 16:53 UTC -> corrio 20:09 UTC  (3:16 tarde)
+  cron 0 21 (18h ARG)    programado 21:00 UTC -> corrio 23:45 UTC  (2:45 tarde)
+  cron 0 10 (07h ARG)    programado 10:00 UTC -> corrio 14:07 UTC  (4:07 tarde)
+```
+
+Entre 2 horas 45 y 4 horas 7 de retraso. O sea: **el tablero dice que se actualiza a las 07:00 de Argentina y en los hechos se actualizó a las 11:07.** Eso no es un detalle: es una afirmación del producto que no se cumple como está escrita.
+
+En la práctica no rompe nada, porque la corrida de la tarde anterior (programada 18:00, corrida 20:45) ya deja la pizarra del día cargada antes de la mañana siguiente. Pero la promesa horaria hay que corregirla o hay que correr los horarios más temprano. Se lo propongo a Santiago; no lo cambio solo.
+
+### De paso, un control que salió bien sin que lo buscara
+
+El tablero muestra granos de la rueda del 24/09 estando ya el 26/09, y eso me hizo sospechar de un error de paginación como el de la falla 6. Verifiqué contra tres consultas distintas:
+
+```
+pagina del dia de la Camara:     Precios Pizarra del día 24/09/2026
+consulta historica (21 al 26):   ... 24/09/2026 | $562.000,00   (ultima fila)
+Bolsa de Comercio de Rosario:    24/09 | 23/09 | 22/09 | 21/09 | 18/09
+```
+
+Las tres coinciden: **la Cámara todavía no publicó la rueda del 25.** No hay bug. El tablero está mostrando la última rueda que existe, que es exactamente lo que tiene que hacer.
