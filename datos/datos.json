@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15T14:40:23",
+ "actualizado": "2026-10-15T23:30:07",
  "ventana_dias": 28,
  "granos": {
   "ok": true,
@@ -703,10 +703,10 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    }
   ],
-  "actualizado": "2026-10-15T14:40:23"
+  "actualizado": "2026-10-15T23:30:07"
  },
  "hacienda": {
-  "ok": false,
+  "ok": true,
   "fuente": "SIO Carnes — Secretaría de Agricultura (MAGyP), con AFIP y SENASA",
   "url": "https://siocarnes.magyp.gob.ar/MonitorSioCarnes/MonitorSioCarnes?idAnimal=1&animal=BOVINO",
   "rueda": "2026-10-12",
@@ -1171,8 +1171,6 @@
     "detalle": "monitor $2666.77/kg · resumen ponderado $2666.77/kg sobre 2 cabezas (desvío 0.00%)"
    }
   ],
-  "actualizado": "2026-10-14T23:36:07",
-  "error": "TimeoutError: The read operation timed out",
-  "intento": "2026-10-15T14:40:23"
+  "actualizado": "2026-10-15T23:30:07"
  }
 }
