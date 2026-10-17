@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T23:12:32",
+ "actualizado": "2026-10-17T13:27:52",
  "ventana_dias": 28,
  "granos": {
   "ok": true,
@@ -24,11 +24,6 @@
      "estimativo": false
     },
     "serie": [
-     {
-      "fecha": "2026-09-14",
-      "precio": 555000.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-09-15",
       "precio": 558000.0,
@@ -158,11 +153,6 @@
     },
     "serie": [
      {
-      "fecha": "2026-09-14",
-      "precio": 295200.0,
-      "estimativo": false
-     },
-     {
       "fecha": "2026-09-15",
       "precio": 295000.0,
       "estimativo": false
@@ -290,11 +280,6 @@
      "estimativo": false
     },
     "serie": [
-     {
-      "fecha": "2026-09-14",
-      "precio": 344655.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-09-15",
       "precio": 335400.0,
@@ -424,11 +409,6 @@
     },
     "serie": [
      {
-      "fecha": "2026-09-14",
-      "precio": 756743.0,
-      "estimativo": true
-     },
-     {
       "fecha": "2026-09-15",
       "precio": 756230.0,
       "estimativo": true
@@ -556,11 +536,6 @@
      "estimativo": true
     },
     "serie": [
-     {
-      "fecha": "2026-09-14",
-      "precio": 275700.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-09-15",
       "precio": 280000.0,
@@ -728,58 +703,58 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    }
   ],
-  "actualizado": "2026-10-16T23:12:32"
+  "actualizado": "2026-10-17T13:27:52"
  },
  "hacienda": {
   "ok": true,
   "fuente": "SIO Carnes — Secretaría de Agricultura (MAGyP), con AFIP y SENASA",
   "url": "https://siocarnes.magyp.gob.ar/MonitorSioCarnes/MonitorSioCarnes?idAnimal=1&animal=BOVINO",
-  "rueda": "2026-10-12",
+  "rueda": "2026-10-16",
   "items": [
    {
     "nombre": "Novillo",
     "unidad": "$/kg vivo",
-    "fecha": "2026-10-09",
-    "precio": 2873.1,
-    "min": 2200.0,
-    "max": 3040.72,
-    "firmeza": "viejo",
-    "cabezas": 0,
-    "cabezas_tipicas": 484,
-    "completitud": 0,
+    "fecha": "2026-10-16",
+    "precio": 2790.8,
+    "min": 2790.8,
+    "max": 2790.8,
+    "firmeza": "provisorio",
+    "cabezas": 6,
+    "cabezas_tipicas": 421,
+    "completitud": 1,
     "anterior": {
-     "fecha": "2026-10-08",
-     "precio": 3159.85,
-     "min": 2385.0,
-     "max": 3200.0,
-     "cabezas": 95,
-     "completitud": 20
+     "fecha": "2026-10-14",
+     "precio": 3300.0,
+     "min": 3300.0,
+     "max": 3300.0,
+     "cabezas": 14,
+     "completitud": 3
     },
     "ultimo_firme": null,
     "serie": [
      {
-      "fecha": "2026-10-07",
-      "precio": 3048.25,
-      "min": 2200.0,
-      "max": 3304.31,
-      "cabezas": 173,
-      "completitud": 36
+      "fecha": "2026-10-11",
+      "precio": 3100.0,
+      "min": 3100.0,
+      "max": 3100.0,
+      "cabezas": 5,
+      "completitud": 1
      },
      {
-      "fecha": "2026-10-08",
-      "precio": 3159.85,
-      "min": 2385.0,
-      "max": 3200.0,
-      "cabezas": 95,
-      "completitud": 20
+      "fecha": "2026-10-14",
+      "precio": 3300.0,
+      "min": 3300.0,
+      "max": 3300.0,
+      "cabezas": 14,
+      "completitud": 3
      },
      {
-      "fecha": "2026-10-09",
-      "precio": 2873.1,
-      "min": 2200.0,
-      "max": 3040.72,
-      "cabezas": 34,
-      "completitud": 7
+      "fecha": "2026-10-16",
+      "precio": 2790.8,
+      "min": 2790.8,
+      "max": 2790.8,
+      "cabezas": 6,
+      "completitud": 1
      }
     ],
     "serie_semanal": [
@@ -806,56 +781,40 @@
      {
       "etiqueta": "Sem 40",
       "desde": "2026-09-27",
-      "precio": 2931.27
+      "precio": 2930.74
      }
     ],
-    "var_abs": -286.75,
-    "var_pct": -9.074797854328532
+    "var_abs": -509.1999999999998,
+    "var_pct": -15.430303030303028
    },
    {
     "nombre": "Novillito",
     "unidad": "$/kg vivo",
-    "fecha": "2026-10-12",
-    "precio": 3200.0,
-    "min": 3200.0,
-    "max": 3200.0,
-    "firmeza": "viejo",
-    "cabezas": 11,
-    "cabezas_tipicas": 2041,
-    "completitud": 1,
+    "fecha": "2026-10-14",
+    "precio": 2400.0,
+    "min": 2400.0,
+    "max": 2400.0,
+    "firmeza": "provisorio",
+    "cabezas": 0,
+    "cabezas_tipicas": 1715,
+    "completitud": 0,
     "anterior": {
-     "fecha": "2026-10-09",
-     "precio": 2900.57,
-     "min": 1811.17,
-     "max": 3167.42,
-     "cabezas": 128,
-     "completitud": 6
+     "fecha": "2026-10-13",
+     "precio": 2863.64,
+     "min": 2037.52,
+     "max": 3325.8,
+     "cabezas": 8,
+     "completitud": 0
     },
     "ultimo_firme": null,
     "serie": [
      {
-      "fecha": "2026-10-07",
-      "precio": 3014.8,
-      "min": 1800.0,
-      "max": 3401.0,
-      "cabezas": 1282,
-      "completitud": 63
-     },
-     {
-      "fecha": "2026-10-08",
-      "precio": 2778.92,
-      "min": 2100.0,
-      "max": 3370.0,
-      "cabezas": 318,
-      "completitud": 16
-     },
-     {
-      "fecha": "2026-10-09",
-      "precio": 2900.57,
-      "min": 1811.17,
-      "max": 3167.42,
-      "cabezas": 128,
-      "completitud": 6
+      "fecha": "2026-10-11",
+      "precio": 2886.28,
+      "min": 2800.0,
+      "max": 2986.43,
+      "cabezas": 39,
+      "completitud": 2
      },
      {
       "fecha": "2026-10-12",
@@ -864,6 +823,22 @@
       "max": 3200.0,
       "cabezas": 11,
       "completitud": 1
+     },
+     {
+      "fecha": "2026-10-13",
+      "precio": 2863.64,
+      "min": 2037.52,
+      "max": 3325.8,
+      "cabezas": 8,
+      "completitud": 0
+     },
+     {
+      "fecha": "2026-10-14",
+      "precio": 2400.0,
+      "min": 2400.0,
+      "max": 2400.0,
+      "cabezas": 4,
+      "completitud": 0
      }
     ],
     "serie_semanal": [
@@ -880,74 +855,74 @@
      {
       "etiqueta": "Sem 38",
       "desde": "2026-09-13",
-      "precio": 3039.49
+      "precio": 3039.03
      },
      {
       "etiqueta": "Sem 39",
       "desde": "2026-09-20",
-      "precio": 3022.33
+      "precio": 3022.09
      },
      {
       "etiqueta": "Sem 40",
       "desde": "2026-09-27",
-      "precio": 2962.97
+      "precio": 2962.87
      }
     ],
-    "var_abs": 299.42999999999984,
-    "var_pct": 10.323143382162803
+    "var_abs": -463.6399999999999,
+    "var_pct": -16.190582615133188
    },
    {
     "nombre": "Vaquillona",
     "unidad": "$/kg vivo",
-    "fecha": "2026-10-12",
-    "precio": 3200.0,
-    "min": 3200.0,
-    "max": 3200.0,
-    "firmeza": "viejo",
-    "cabezas": 23,
-    "cabezas_tipicas": 1057,
-    "completitud": 2,
+    "fecha": "2026-10-16",
+    "precio": 2645.27,
+    "min": 2645.27,
+    "max": 2645.27,
+    "firmeza": "provisorio",
+    "cabezas": 2,
+    "cabezas_tipicas": 933,
+    "completitud": 0,
     "anterior": {
-     "fecha": "2026-10-09",
-     "precio": 2956.83,
-     "min": 2400.0,
-     "max": 3150.0,
-     "cabezas": 53,
-     "completitud": 5
+     "fecha": "2026-10-13",
+     "precio": 2986.43,
+     "min": 2986.43,
+     "max": 2986.43,
+     "cabezas": 20,
+     "completitud": 2
     },
     "ultimo_firme": null,
     "serie": [
      {
-      "fecha": "2026-10-07",
-      "precio": 2683.79,
-      "min": 1980.0,
-      "max": 3200.0,
-      "cabezas": 688,
-      "completitud": 65
-     },
-     {
-      "fecha": "2026-10-08",
-      "precio": 3020.91,
-      "min": 2760.0,
-      "max": 3200.0,
-      "cabezas": 367,
-      "completitud": 35
-     },
-     {
-      "fecha": "2026-10-09",
-      "precio": 2956.83,
-      "min": 2400.0,
-      "max": 3150.0,
-      "cabezas": 53,
-      "completitud": 5
+      "fecha": "2026-10-11",
+      "precio": 2800.0,
+      "min": 2800.0,
+      "max": 2800.0,
+      "cabezas": 17,
+      "completitud": 2
      },
      {
       "fecha": "2026-10-12",
-      "precio": 3200.0,
-      "min": 3200.0,
+      "precio": 3095.73,
+      "min": 2986.43,
       "max": 3200.0,
-      "cabezas": 23,
+      "cabezas": 43,
+      "completitud": 5
+     },
+     {
+      "fecha": "2026-10-13",
+      "precio": 2986.43,
+      "min": 2986.43,
+      "max": 2986.43,
+      "cabezas": 20,
       "completitud": 2
+     },
+     {
+      "fecha": "2026-10-16",
+      "precio": 2645.27,
+      "min": 2645.27,
+      "max": 2645.27,
+      "cabezas": 2,
+      "completitud": 0
      }
     ],
     "serie_semanal": [
@@ -969,16 +944,16 @@
      {
       "etiqueta": "Sem 39",
       "desde": "2026-09-20",
-      "precio": 2880.89
+      "precio": 2880.78
      },
      {
       "etiqueta": "Sem 40",
       "desde": "2026-09-27",
-      "precio": 2917.53
+      "precio": 2917.3
      }
     ],
-    "var_abs": 243.17000000000007,
-    "var_pct": 8.22401017305696
+    "var_abs": -341.15999999999985,
+    "var_pct": -11.423673081237462
    },
    {
     "nombre": "Ternero",
@@ -991,47 +966,39 @@
    {
     "nombre": "Vaca",
     "unidad": "$/kg vivo",
-    "fecha": "2026-10-09",
-    "precio": 2041.07,
-    "min": 2000.0,
-    "max": 2100.0,
-    "firmeza": "viejo",
+    "fecha": "2026-10-13",
+    "precio": 1402.8,
+    "min": 1402.8,
+    "max": 1402.8,
+    "firmeza": "provisorio",
     "cabezas": 0,
-    "cabezas_tipicas": 758,
+    "cabezas_tipicas": 653,
     "completitud": 0,
     "anterior": {
-     "fecha": "2026-10-08",
-     "precio": 1973.43,
-     "min": 1350.0,
-     "max": 2324.47,
-     "cabezas": 68,
-     "completitud": 9
+     "fecha": "2026-10-12",
+     "precio": 1567.92,
+     "min": 1527.23,
+     "max": 1800.0,
+     "cabezas": 14,
+     "completitud": 2
     },
     "ultimo_firme": null,
     "serie": [
      {
-      "fecha": "2026-10-07",
-      "precio": 2059.02,
-      "min": 1304.98,
-      "max": 2330.77,
-      "cabezas": 212,
-      "completitud": 28
+      "fecha": "2026-10-12",
+      "precio": 1567.92,
+      "min": 1527.23,
+      "max": 1800.0,
+      "cabezas": 14,
+      "completitud": 2
      },
      {
-      "fecha": "2026-10-08",
-      "precio": 1973.43,
-      "min": 1350.0,
-      "max": 2324.47,
-      "cabezas": 68,
-      "completitud": 9
-     },
-     {
-      "fecha": "2026-10-09",
-      "precio": 2041.07,
-      "min": 2000.0,
-      "max": 2100.0,
-      "cabezas": 27,
-      "completitud": 4
+      "fecha": "2026-10-13",
+      "precio": 1402.8,
+      "min": 1402.8,
+      "max": 1402.8,
+      "cabezas": 10,
+      "completitud": 2
      }
     ],
     "serie_semanal": [
@@ -1058,79 +1025,33 @@
      {
       "etiqueta": "Sem 40",
       "desde": "2026-09-27",
-      "precio": 1934.1
+      "precio": 1934.32
      }
     ],
-    "var_abs": 67.63999999999987,
-    "var_pct": 3.427534799815546
+    "var_abs": -165.12000000000012,
+    "var_pct": -10.531149548446361
    },
    {
     "nombre": "Toro",
     "unidad": "$/kg vivo",
     "fecha": "2026-10-12",
-    "precio": 2666.77,
-    "min": 2666.77,
+    "precio": 2247.37,
+    "min": 1527.23,
     "max": 2666.77,
-    "firmeza": "viejo",
-    "cabezas": 2,
-    "cabezas_tipicas": 416,
+    "firmeza": "provisorio",
+    "cabezas": 0,
+    "cabezas_tipicas": 361,
     "completitud": 0,
-    "anterior": {
-     "fecha": "2026-10-10",
-     "precio": 1600.0,
-     "min": 1600.0,
-     "max": 1600.0,
-     "cabezas": 2,
-     "completitud": 0
-    },
-    "ultimo_firme": {
-     "fecha": "2026-10-07",
-     "precio": 2902.08,
-     "min": 1540.0,
-     "max": 3158.86,
-     "cabezas": 379,
-     "completitud": 91
-    },
+    "anterior": null,
+    "ultimo_firme": null,
     "serie": [
      {
-      "fecha": "2026-10-07",
-      "precio": 2902.08,
-      "min": 1540.0,
-      "max": 3158.86,
-      "cabezas": 379,
-      "completitud": 91
-     },
-     {
-      "fecha": "2026-10-08",
-      "precio": 2676.38,
-      "min": 2250.0,
-      "max": 3070.0,
-      "cabezas": 68,
-      "completitud": 16
-     },
-     {
-      "fecha": "2026-10-09",
-      "precio": 2684.99,
-      "min": 2000.0,
-      "max": 3120.0,
-      "cabezas": 33,
-      "completitud": 8
-     },
-     {
-      "fecha": "2026-10-10",
-      "precio": 1600.0,
-      "min": 1600.0,
-      "max": 1600.0,
-      "cabezas": 2,
-      "completitud": 0
-     },
-     {
       "fecha": "2026-10-12",
-      "precio": 2666.77,
-      "min": 2666.77,
+      "precio": 2247.37,
+      "min": 1527.23,
       "max": 2666.77,
-      "cabezas": 2,
-      "completitud": 0
+      "cabezas": 5,
+      "completitud": 1
      }
     ],
     "serie_semanal": [
@@ -1152,33 +1073,31 @@
      {
       "etiqueta": "Sem 39",
       "desde": "2026-09-20",
-      "precio": 2763.38
+      "precio": 2764.94
      },
      {
       "etiqueta": "Sem 40",
       "desde": "2026-09-27",
       "precio": 2676.06
      }
-    ],
-    "var_abs": 1066.77,
-    "var_pct": 66.673125
+    ]
    }
   ],
   "controles": [
    {
-    "que": "Novillo: Monitor vs. Resumen de precios",
+    "que": "Novillo: Monitor vs. Resumen de precios (2026-10-16)",
+    "ok": true,
+    "detalle": "monitor $2790.80/kg · resumen ponderado $2790.80/kg sobre 6 cabezas (desvío 0.00%)"
+   },
+   {
+    "que": "Novillito: Monitor vs. Resumen de precios",
     "ok": null,
     "detalle": "el resumen no devolvió cabezas para esa categoría ese día"
    },
    {
-    "que": "Novillito: Monitor vs. Resumen de precios (2026-10-12)",
+    "que": "Vaquillona: Monitor vs. Resumen de precios (2026-10-16)",
     "ok": true,
-    "detalle": "monitor $3200.00/kg · resumen ponderado $3200.00/kg sobre 11 cabezas (desvío 0.00%)"
-   },
-   {
-    "que": "Vaquillona: Monitor vs. Resumen de precios (2026-10-12)",
-    "ok": true,
-    "detalle": "monitor $3200.00/kg · resumen ponderado $3200.00/kg sobre 23 cabezas (desvío 0.00%)"
+    "detalle": "monitor $2645.27/kg · resumen ponderado $2645.27/kg sobre 2 cabezas (desvío 0.00%)"
    },
    {
     "que": "Ternero: Monitor vs. Resumen de precios",
@@ -1191,11 +1110,11 @@
     "detalle": "el resumen no devolvió cabezas para esa categoría ese día"
    },
    {
-    "que": "Toro: Monitor vs. Resumen de precios (2026-10-12)",
-    "ok": true,
-    "detalle": "monitor $2666.77/kg · resumen ponderado $2666.77/kg sobre 2 cabezas (desvío 0.00%)"
+    "que": "Toro: Monitor vs. Resumen de precios",
+    "ok": null,
+    "detalle": "el resumen no devolvió cabezas para esa categoría ese día"
    }
   ],
-  "actualizado": "2026-10-16T23:12:32"
+  "actualizado": "2026-10-17T13:27:52"
  }
 }
