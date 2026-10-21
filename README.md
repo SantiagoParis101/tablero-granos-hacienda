@@ -8,7 +8,7 @@ Es un archivo HTML suelto: abre con doble clic, sin instalar nada y sin servidor
 
 Está hecho para que el responsable de la empresa y los stakeholders abran una pantalla a la mañana y no tengan que entrar a ningún sitio.
 
-**El tablero en vivo: https://sspp404.github.io/tablero-granos-hacienda/**
+**El tablero en vivo: https://SantiagoParis200.github.io/tablero-granos-hacienda/**
 
 **Archivos**
 
