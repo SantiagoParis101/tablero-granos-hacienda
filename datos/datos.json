@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T14:52:37",
+ "actualizado": "2026-10-22T23:49:21",
  "ventana_dias": 28,
  "granos": {
   "ok": true,
@@ -703,7 +703,7 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    }
   ],
-  "actualizado": "2026-10-22T14:52:37"
+  "actualizado": "2026-10-22T23:49:21"
  },
  "hacienda": {
   "ok": true,
@@ -1123,6 +1123,6 @@
     "detalle": "el resumen no devolvió cabezas para esa categoría ese día"
    }
   ],
-  "actualizado": "2026-10-22T14:52:37"
+  "actualizado": "2026-10-22T23:49:21"
  }
 }
