@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T15:44:13",
+ "actualizado": "2026-10-28T00:12:46",
  "ventana_dias": 28,
  "granos": {
   "ok": true,
@@ -24,11 +24,6 @@
      "estimativo": false
     },
     "serie": [
-     {
-      "fecha": "2026-09-25",
-      "precio": 565000.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-09-28",
       "precio": 555000.0,
@@ -148,11 +143,6 @@
     },
     "serie": [
      {
-      "fecha": "2026-09-25",
-      "precio": 297234.0,
-      "estimativo": false
-     },
-     {
       "fecha": "2026-09-28",
       "precio": 291750.0,
       "estimativo": false
@@ -270,11 +260,6 @@
      "estimativo": false
     },
     "serie": [
-     {
-      "fecha": "2026-09-25",
-      "precio": 345762.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-09-28",
       "precio": 347050.0,
@@ -394,11 +379,6 @@
     },
     "serie": [
      {
-      "fecha": "2026-09-25",
-      "precio": 765830.0,
-      "estimativo": true
-     },
-     {
       "fecha": "2026-09-28",
       "precio": 765300.0,
       "estimativo": true
@@ -516,11 +496,6 @@
      "estimativo": false
     },
     "serie": [
-     {
-      "fecha": "2026-09-25",
-      "precio": 288135.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-09-28",
       "precio": 287950.0,
@@ -678,7 +653,7 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    }
   ],
-  "actualizado": "2026-10-27T15:44:13"
+  "actualizado": "2026-10-28T00:12:46"
  },
  "hacienda": {
   "ok": true,
@@ -1098,6 +1073,6 @@
     "detalle": "el resumen no devolvió cabezas para esa categoría ese día"
    }
   ],
-  "actualizado": "2026-10-27T15:44:13"
+  "actualizado": "2026-10-28T00:12:46"
  }
 }
