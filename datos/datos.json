@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T02:44:41",
+ "actualizado": "2026-11-03T17:32:47",
  "ventana_dias": 28,
  "granos": {
   "ok": true,
@@ -7,20 +7,20 @@
   "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
   "fuente_control": "Bolsa de Comercio de Rosario — Cotizaciones Locales",
   "url_control": "https://www.bcr.com.ar/es/mercados/mercado-de-granos/cotizaciones/cotizaciones-locales-0",
-  "rueda": "2026-10-30",
+  "rueda": "2026-11-02",
   "tc_bna": null,
   "items": [
    {
     "nombre": "Soja",
     "unidad": "$/t",
-    "fecha": "2026-10-30",
-    "precio": 544000.0,
-    "firmeza": "estimativo",
-    "sin_cotizacion": true,
-    "usd": 356.72,
+    "fecha": "2026-11-02",
+    "precio": 542000.0,
+    "firmeza": "definitivo",
+    "sin_cotizacion": false,
+    "usd": 352.75,
     "anterior": {
-     "fecha": "2026-10-29",
-     "precio": 547000.0,
+     "fecha": "2026-10-30",
+     "precio": 544000.0,
      "estimativo": true
     },
     "serie": [
@@ -123,23 +123,28 @@
       "fecha": "2026-10-30",
       "precio": 544000.0,
       "estimativo": true
+     },
+     {
+      "fecha": "2026-11-02",
+      "precio": 542000.0,
+      "estimativo": false
      }
     ],
-    "var_abs": -3000.0,
-    "var_pct": -0.5484460694698323
+    "var_abs": -2000.0,
+    "var_pct": -0.3676470588235281
    },
    {
     "nombre": "Maíz",
     "unidad": "$/t",
-    "fecha": "2026-10-30",
-    "precio": 273300.0,
-    "firmeza": "estimativo",
-    "sin_cotizacion": true,
-    "usd": 179.21,
+    "fecha": "2026-11-02",
+    "precio": 275000.0,
+    "firmeza": "definitivo",
+    "sin_cotizacion": false,
+    "usd": 178.98,
     "anterior": {
-     "fecha": "2026-10-29",
-     "precio": 275400.0,
-     "estimativo": false
+     "fecha": "2026-10-30",
+     "precio": 273300.0,
+     "estimativo": true
     },
     "serie": [
      {
@@ -241,22 +246,27 @@
       "fecha": "2026-10-30",
       "precio": 273300.0,
       "estimativo": true
+     },
+     {
+      "fecha": "2026-11-02",
+      "precio": 275000.0,
+      "estimativo": false
      }
     ],
-    "var_abs": -2100.0,
-    "var_pct": -0.7625272331154731
+    "var_abs": 1700.0,
+    "var_pct": 0.622027076472742
    },
    {
     "nombre": "Trigo",
     "unidad": "$/t",
-    "fecha": "2026-10-30",
-    "precio": 312500.0,
+    "fecha": "2026-11-02",
+    "precio": 314980.0,
     "firmeza": "definitivo",
     "sin_cotizacion": false,
-    "usd": 204.92,
+    "usd": 205.0,
     "anterior": {
-     "fecha": "2026-10-29",
-     "precio": 311000.0,
+     "fecha": "2026-10-30",
+     "precio": 312500.0,
      "estimativo": false
     },
     "serie": [
@@ -359,22 +369,27 @@
       "fecha": "2026-10-30",
       "precio": 312500.0,
       "estimativo": false
+     },
+     {
+      "fecha": "2026-11-02",
+      "precio": 314980.0,
+      "estimativo": false
      }
     ],
-    "var_abs": 1500.0,
-    "var_pct": 0.4823151125401992
+    "var_abs": 2480.0,
+    "var_pct": 0.7935999999999943
    },
    {
     "nombre": "Girasol",
     "unidad": "$/t",
-    "fecha": "2026-10-30",
-    "precio": 808250.0,
+    "fecha": "2026-11-02",
+    "precio": 799000.0,
     "firmeza": "estimativo",
     "sin_cotizacion": true,
-    "usd": 530.0,
+    "usd": 520.01,
     "anterior": {
-     "fecha": "2026-10-29",
-     "precio": 810900.0,
+     "fecha": "2026-10-30",
+     "precio": 808250.0,
      "estimativo": true
     },
     "serie": [
@@ -477,22 +492,27 @@
       "fecha": "2026-10-30",
       "precio": 808250.0,
       "estimativo": true
+     },
+     {
+      "fecha": "2026-11-02",
+      "precio": 799000.0,
+      "estimativo": true
      }
     ],
-    "var_abs": -2650.0,
-    "var_pct": -0.32679738562091387
+    "var_abs": -9250.0,
+    "var_pct": -1.1444478812248637
    },
    {
     "nombre": "Sorgo",
     "unidad": "$/t",
-    "fecha": "2026-10-30",
-    "precio": 282125.0,
+    "fecha": "2026-11-02",
+    "precio": 284250.0,
     "firmeza": "estimativo",
     "sin_cotizacion": true,
     "usd": 185.0,
     "anterior": {
-     "fecha": "2026-10-29",
-     "precio": 285000.0,
+     "fecha": "2026-10-30",
+     "precio": 282125.0,
      "estimativo": true
     },
     "serie": [
@@ -595,17 +615,22 @@
       "fecha": "2026-10-30",
       "precio": 282125.0,
       "estimativo": true
+     },
+     {
+      "fecha": "2026-11-02",
+      "precio": 284250.0,
+      "estimativo": true
      }
     ],
-    "var_abs": -2875.0,
-    "var_pct": -1.008771929824559
+    "var_abs": 2125.0,
+    "var_pct": 0.7532122286220577
    }
   ],
   "controles": [
    {
-    "que": "Soja: pizarra del día vs. consulta histórica (2026-10-30)",
+    "que": "Soja: pizarra del día vs. consulta histórica (2026-11-02)",
     "ok": true,
-    "detalle": "pizarra $544,000.00 · histórico $544,000.00"
+    "detalle": "pizarra $542,000.00 · histórico $542,000.00"
    },
    {
     "que": "Soja: Cámara vs. Bolsa de Comercio de Rosario",
@@ -613,9 +638,9 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    },
    {
-    "que": "Maíz: pizarra del día vs. consulta histórica (2026-10-30)",
+    "que": "Maíz: pizarra del día vs. consulta histórica (2026-11-02)",
     "ok": true,
-    "detalle": "pizarra $273,300.00 · histórico $273,300.00"
+    "detalle": "pizarra $275,000.00 · histórico $275,000.00"
    },
    {
     "que": "Maíz: Cámara vs. Bolsa de Comercio de Rosario",
@@ -623,9 +648,9 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    },
    {
-    "que": "Trigo: pizarra del día vs. consulta histórica (2026-10-30)",
+    "que": "Trigo: pizarra del día vs. consulta histórica (2026-11-02)",
     "ok": true,
-    "detalle": "pizarra $312,500.00 · histórico $312,500.00"
+    "detalle": "pizarra $314,980.00 · histórico $314,980.00"
    },
    {
     "que": "Trigo: Cámara vs. Bolsa de Comercio de Rosario",
@@ -633,9 +658,9 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    },
    {
-    "que": "Girasol: pizarra del día vs. consulta histórica (2026-10-30)",
+    "que": "Girasol: pizarra del día vs. consulta histórica (2026-11-02)",
     "ok": true,
-    "detalle": "pizarra $808,250.00 · histórico $808,250.00"
+    "detalle": "pizarra $799,000.00 · histórico $799,000.00"
    },
    {
     "que": "Girasol: Cámara vs. Bolsa de Comercio de Rosario",
@@ -643,9 +668,9 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    },
    {
-    "que": "Sorgo: pizarra del día vs. consulta histórica (2026-10-30)",
+    "que": "Sorgo: pizarra del día vs. consulta histórica (2026-11-02)",
     "ok": true,
-    "detalle": "pizarra $282,125.00 · histórico $282,125.00"
+    "detalle": "pizarra $284,250.00 · histórico $284,250.00"
    },
    {
     "que": "Sorgo: Cámara vs. Bolsa de Comercio de Rosario",
@@ -653,7 +678,7 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    }
   ],
-  "actualizado": "2026-11-03T02:44:41"
+  "actualizado": "2026-11-03T17:32:47"
  },
  "hacienda": {
   "ok": false,
@@ -1075,6 +1100,6 @@
   ],
   "actualizado": "2026-10-28T00:12:46",
   "error": "HTTPError: HTTP Error 403: Forbidden",
-  "intento": "2026-11-03T02:44:41"
+  "intento": "2026-11-03T17:32:47"
  }
 }
