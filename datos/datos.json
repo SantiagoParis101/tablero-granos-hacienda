@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T17:32:47",
+ "actualizado": "2026-11-04T00:59:46",
  "ventana_dias": 28,
  "granos": {
   "ok": true,
@@ -24,11 +24,6 @@
      "estimativo": true
     },
     "serie": [
-     {
-      "fecha": "2026-10-02",
-      "precio": 554000.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-10-05",
       "precio": 552500.0,
@@ -148,11 +143,6 @@
     },
     "serie": [
      {
-      "fecha": "2026-10-02",
-      "precio": 287090.0,
-      "estimativo": false
-     },
-     {
       "fecha": "2026-10-05",
       "precio": 287090.0,
       "estimativo": false
@@ -270,11 +260,6 @@
      "estimativo": false
     },
     "serie": [
-     {
-      "fecha": "2026-10-02",
-      "precio": 339975.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-10-05",
       "precio": 339975.0,
@@ -394,11 +379,6 @@
     },
     "serie": [
      {
-      "fecha": "2026-10-02",
-      "precio": 763055.0,
-      "estimativo": true
-     },
-     {
       "fecha": "2026-10-05",
       "precio": 763055.0,
       "estimativo": true
@@ -516,11 +496,6 @@
      "estimativo": true
     },
     "serie": [
-     {
-      "fecha": "2026-10-02",
-      "precio": 294645.0,
-      "estimativo": true
-     },
      {
       "fecha": "2026-10-05",
       "precio": 294645.0,
@@ -678,7 +653,7 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    }
   ],
-  "actualizado": "2026-11-03T17:32:47"
+  "actualizado": "2026-11-04T00:59:46"
  },
  "hacienda": {
   "ok": false,
@@ -1100,6 +1075,6 @@
   ],
   "actualizado": "2026-10-28T00:12:46",
   "error": "HTTPError: HTTP Error 403: Forbidden",
-  "intento": "2026-11-03T17:32:47"
+  "intento": "2026-11-04T00:59:46"
  }
 }
