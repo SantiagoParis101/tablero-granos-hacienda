@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T17:51:13",
+ "actualizado": "2026-11-06T01:19:50",
  "ventana_dias": 28,
  "granos": {
   "ok": true,
@@ -703,7 +703,7 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    }
   ],
-  "actualizado": "2026-11-05T17:51:13"
+  "actualizado": "2026-11-06T01:19:50"
  },
  "hacienda": {
   "ok": false,
@@ -1125,6 +1125,6 @@
   ],
   "actualizado": "2026-10-28T00:12:46",
   "error": "HTTPError: HTTP Error 403: Forbidden",
-  "intento": "2026-11-05T17:51:13"
+  "intento": "2026-11-06T01:19:50"
  }
 }
