@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T17:06:17",
+ "actualizado": "2026-11-23T21:53:36",
  "ventana_dias": 28,
  "granos": {
   "ok": true,
@@ -24,16 +24,6 @@
      "estimativo": false
     },
     "serie": [
-     {
-      "fecha": "2026-10-20",
-      "precio": 550000.0,
-      "estimativo": false
-     },
-     {
-      "fecha": "2026-10-21",
-      "precio": 550000.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-10-22",
       "precio": 550000.0,
@@ -153,16 +143,6 @@
     },
     "serie": [
      {
-      "fecha": "2026-10-20",
-      "precio": 279000.0,
-      "estimativo": false
-     },
-     {
-      "fecha": "2026-10-21",
-      "precio": 277875.0,
-      "estimativo": false
-     },
-     {
       "fecha": "2026-10-22",
       "precio": 278000.0,
       "estimativo": false
@@ -280,16 +260,6 @@
      "estimativo": false
     },
     "serie": [
-     {
-      "fecha": "2026-10-20",
-      "precio": 344100.0,
-      "estimativo": false
-     },
-     {
-      "fecha": "2026-10-21",
-      "precio": 329300.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-10-22",
       "precio": 326600.0,
@@ -409,16 +379,6 @@
     },
     "serie": [
      {
-      "fecha": "2026-10-20",
-      "precio": 803480.0,
-      "estimativo": true
-     },
-     {
-      "fecha": "2026-10-21",
-      "precio": 804010.0,
-      "estimativo": true
-     },
-     {
       "fecha": "2026-10-22",
       "precio": 805100.0,
       "estimativo": true
@@ -536,16 +496,6 @@
      "estimativo": true
     },
     "serie": [
-     {
-      "fecha": "2026-10-20",
-      "precio": 288040.0,
-      "estimativo": false
-     },
-     {
-      "fecha": "2026-10-21",
-      "precio": 288230.0,
-      "estimativo": false
-     },
      {
       "fecha": "2026-10-22",
       "precio": 288610.0,
@@ -703,7 +653,7 @@
     "detalle": "5 de 5 ruedas comunes coinciden"
    }
   ],
-  "actualizado": "2026-11-21T17:06:17"
+  "actualizado": "2026-11-23T21:53:36"
  },
  "hacienda": {
   "ok": false,
@@ -1125,6 +1075,6 @@
   ],
   "actualizado": "2026-10-28T00:12:46",
   "error": "HTTPError: HTTP Error 403: Forbidden",
-  "intento": "2026-11-21T17:06:17"
+  "intento": "2026-11-23T21:53:36"
  }
 }
