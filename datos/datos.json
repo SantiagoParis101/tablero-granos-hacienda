@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T19:25:03",
+ "actualizado": "2026-11-27T03:26:06",
  "ventana_dias": 28,
  "granos": {
   "ok": true,
@@ -634,8 +634,8 @@
    },
    {
     "que": "Soja: Cámara vs. Bolsa de Comercio de Rosario",
-    "ok": true,
-    "detalle": "5 de 5 ruedas comunes coinciden"
+    "ok": null,
+    "detalle": "la Bolsa no respondió — HTTPError: HTTP Error 500: Internal Server Error"
    },
    {
     "que": "Maíz: pizarra del día vs. consulta histórica (2026-11-25)",
@@ -644,8 +644,8 @@
    },
    {
     "que": "Maíz: Cámara vs. Bolsa de Comercio de Rosario",
-    "ok": true,
-    "detalle": "5 de 5 ruedas comunes coinciden"
+    "ok": null,
+    "detalle": "la Bolsa no respondió — HTTPError: HTTP Error 500: Internal Server Error"
    },
    {
     "que": "Trigo: pizarra del día vs. consulta histórica (2026-11-25)",
@@ -654,8 +654,8 @@
    },
    {
     "que": "Trigo: Cámara vs. Bolsa de Comercio de Rosario",
-    "ok": true,
-    "detalle": "5 de 5 ruedas comunes coinciden"
+    "ok": null,
+    "detalle": "la Bolsa no respondió — HTTPError: HTTP Error 500: Internal Server Error"
    },
    {
     "que": "Girasol: pizarra del día vs. consulta histórica (2026-11-25)",
@@ -664,8 +664,8 @@
    },
    {
     "que": "Girasol: Cámara vs. Bolsa de Comercio de Rosario",
-    "ok": true,
-    "detalle": "5 de 5 ruedas comunes coinciden"
+    "ok": null,
+    "detalle": "la Bolsa no respondió — HTTPError: HTTP Error 500: Internal Server Error"
    },
    {
     "que": "Sorgo: pizarra del día vs. consulta histórica (2026-11-25)",
@@ -674,11 +674,11 @@
    },
    {
     "que": "Sorgo: Cámara vs. Bolsa de Comercio de Rosario",
-    "ok": true,
-    "detalle": "5 de 5 ruedas comunes coinciden"
+    "ok": null,
+    "detalle": "la Bolsa no respondió — HTTPError: HTTP Error 500: Internal Server Error"
    }
   ],
-  "actualizado": "2026-11-26T19:25:03"
+  "actualizado": "2026-11-27T03:26:06"
  },
  "hacienda": {
   "ok": false,
@@ -1100,6 +1100,6 @@
   ],
   "actualizado": "2026-10-28T00:12:46",
   "error": "HTTPError: HTTP Error 403: Forbidden",
-  "intento": "2026-11-26T19:25:03"
+  "intento": "2026-11-27T03:26:06"
  }
 }
